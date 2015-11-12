@@ -4,7 +4,7 @@ USE ieee.std_logic_arith.all;
 
 
 ENTITY mux_second IS
-   PORT( 
+   PORT(
       input_0 : IN     std_logic_vector (31 DOWNTO 0);
       input_1 : IN     std_logic_vector (31 DOWNTO 0);
       sel     : IN     std_logic;
@@ -17,8 +17,10 @@ ARCHITECTURE struct OF mux_second IS
 
 BEGIN
 
--- Insert your code here --
-
----------------------------
+    IF sel = "1" THEN
+        output <=  input_1;
+    ELSE
+        output <= input_0 ;
+    END IF;
 
 END struct;
