@@ -39,9 +39,6 @@ BEGIN
             PC_internal <= PC_reset;
         ELSIF (clk'EVENT AND clk = '1') THEN
             PC_internal <= PC_next;
-        --ELSE
-            -- Do I need this?
-            --PC_internal <= PC_next;
         END IF;
 
     END PROCESS pc_process;

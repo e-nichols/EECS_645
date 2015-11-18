@@ -4,7 +4,7 @@ USE ieee.std_logic_arith.all;
 
 
 ENTITY First_Shift_Left_2 IS
-   PORT(
+   PORT( 
       Instruction_25_0              : IN     std_logic_vector (25 DOWNTO 0);
       Instruction_25_0_Left_Shifted : OUT    std_logic_vector (27 DOWNTO 0)
    );
@@ -15,7 +15,6 @@ ARCHITECTURE struct OF First_Shift_Left_2 IS
 
 BEGIN
 
---Concatenate two bits
-Instruction_25_0_Left_Shifted <= Instruction_25_0 & "00";
+   Instruction_25_0_Left_Shifted <= (Instruction_25_0 & "00");
 
 END struct;

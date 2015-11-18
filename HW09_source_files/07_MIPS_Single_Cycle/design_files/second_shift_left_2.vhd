@@ -4,7 +4,7 @@ USE ieee.std_logic_arith.all;
 
 
 ENTITY Second_Shift_Left_2 IS
-   PORT(
+   PORT( 
       Instruction_15_0_Sign_Extended              : IN     std_logic_vector (31 DOWNTO 0);
       Instruction_15_0_Sign_Extended_Left_Shifted : OUT    std_logic_vector (31 DOWNTO 0)
    );
@@ -15,8 +15,6 @@ ARCHITECTURE struct OF Second_Shift_Left_2 IS
 
 BEGIN
 
--- Change vars
-Instruction_25_0_Left_Shifted <= Instruction_15_0_Sign_Extended(29 DOWNTO 0) & "00";
-
+   Instruction_15_0_Sign_Extended_Left_Shifted <= (Instruction_15_0_Sign_Extended(29 downto 0) & "00");
 
 END struct;

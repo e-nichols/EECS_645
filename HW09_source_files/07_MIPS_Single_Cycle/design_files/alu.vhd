@@ -4,7 +4,7 @@ USE ieee.std_logic_arith.all;
 USE ieee.std_logic_signed.all;
 
 ENTITY ALU IS
-   PORT(
+   PORT( 
       A           : IN     std_logic_vector (31 DOWNTO 0);
       ALU_control : IN     std_logic_vector (3 DOWNTO 0);
       B           : IN     std_logic_vector (31 DOWNTO 0);

@@ -39,7 +39,6 @@ BEGIN
                     WHEN "100100" => ALU_control <= "0000";
                     WHEN "100101" => ALU_control <= "0001";
                     WHEN "101010" => ALU_control <= "0111";
-                    -- DO I NEED THIS DEFAULT CASE  ???????
                     WHEN OTHERS => ALU_control <= zero_value;
                 END CASE;
 
