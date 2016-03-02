@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW_2/Prob_01/problem1_behavorial/problem1_behavorial.srcs/sources_1/new/prob1_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity prob01_behav
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW_2/Prob_01/problem1_behavorial/problem1_behavorial.srcs/sim_1/new/prob1_behavorial_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity prob1_behavorial_tb

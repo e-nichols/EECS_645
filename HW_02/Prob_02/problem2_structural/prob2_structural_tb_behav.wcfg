@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="prob2_structural_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="prob2_structural_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject type="divider" fp_name="divider124">
+      <obj_property name="label">Control Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider123">
+      <obj_property name="label">Requests</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/REQ_01" type="logic">
+      <obj_property name="ElementShortName">REQ_01</obj_property>
+      <obj_property name="ObjectShortName">REQ_01</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/REQ_02" type="logic">
+      <obj_property name="ElementShortName">REQ_02</obj_property>
+      <obj_property name="ObjectShortName">REQ_02</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider125">
+      <obj_property name="label">Acknowledgements</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/ACK_01" type="logic">
+      <obj_property name="ElementShortName">ACK_01</obj_property>
+      <obj_property name="ObjectShortName">ACK_01</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/ACK_02" type="logic">
+      <obj_property name="ElementShortName">ACK_02</obj_property>
+      <obj_property name="ObjectShortName">ACK_02</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider122">
+      <obj_property name="label">Internal States</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus120" type="vbus">
+      <obj_property name="label">current_state</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/uut/s1_current" type="logic">
+         <obj_property name="ElementShortName">s1_current</obj_property>
+         <obj_property name="ObjectShortName">s1_current</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/uut/s2_current" type="logic">
+         <obj_property name="ElementShortName">s2_current</obj_property>
+         <obj_property name="ObjectShortName">s2_current</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus121" type="vbus">
+      <obj_property name="label">next_state</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/uut/s1_next" type="logic">
+         <obj_property name="ElementShortName">s1_next</obj_property>
+         <obj_property name="ObjectShortName">s1_next</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/prob2_structural_tb/uut/s2_next" type="logic">
+         <obj_property name="ElementShortName">s2_next</obj_property>
+         <obj_property name="ObjectShortName">s2_next</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

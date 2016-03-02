@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="prob3_behavorial_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="prob3_behavorial_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject type="divider" fp_name="divider314">
+      <obj_property name="label">Control Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider313">
+      <obj_property name="label">Requests</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/REQ_01" type="logic">
+      <obj_property name="ElementShortName">REQ_01</obj_property>
+      <obj_property name="ObjectShortName">REQ_01</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/REQ_02" type="logic">
+      <obj_property name="ElementShortName">REQ_02</obj_property>
+      <obj_property name="ObjectShortName">REQ_02</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/REQ_03" type="logic">
+      <obj_property name="ElementShortName">REQ_03</obj_property>
+      <obj_property name="ObjectShortName">REQ_03</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider312">
+      <obj_property name="label">Acknowledgements</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/ACK_01" type="logic">
+      <obj_property name="ElementShortName">ACK_01</obj_property>
+      <obj_property name="ObjectShortName">ACK_01</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/ACK_03" type="logic">
+      <obj_property name="ElementShortName">ACK_03</obj_property>
+      <obj_property name="ObjectShortName">ACK_03</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/ACK_02" type="logic">
+      <obj_property name="ElementShortName">ACK_02</obj_property>
+      <obj_property name="ObjectShortName">ACK_02</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider315">
+      <obj_property name="label">Internal States</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/uut/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/prob3_behavorial_tb/uut/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+   </wvobject>
+</wave_config>

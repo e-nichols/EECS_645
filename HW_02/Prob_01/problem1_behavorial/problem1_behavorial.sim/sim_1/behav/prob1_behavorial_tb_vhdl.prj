@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../problem1_behavorial.srcs/sources_1/new/prob1_behav.vhd"
+vhdl xil_defaultlib  "../../../problem1_behavorial.srcs/sim_1/new/prob1_behavorial_tb.vhd"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW_2/Prob_01/problem1_structural/problem1_structural.srcs/sources_1/new/prob1_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity prob1_struct
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW_2/Prob_01/problem1_structural/problem1_structural.srcs/sim_1/new/prob1_struct_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity prob1_struct_tb

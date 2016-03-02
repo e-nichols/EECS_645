@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Nov 18 14:00:25 2015
+# Process ID: 4384
+# Log file: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/vivado.log
+# Journal file: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.xpr
+INFO: [Project 1-313] Project file moved from 'C:/01_My_KU_Material/KU_Material/KU_Academics/Teaching/01_EECS_645/01_EECS_645_Fall2015/Homework/HW09 - MIPS/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 683.098 ; gain = 89.840
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+ERROR: [VRFC 10-91] unsigned is not declared [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:61]
+ERROR: [VRFC 10-91] mem is not declared [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:53]
+ERROR: [VRFC 10-1504] unit struct_4byte_wide ignored due to previous errors [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:15]
+INFO: [VRFC 10-240] VHDL file H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+ERROR: [VRFC 10-91] read_address is not declared [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:62]
+ERROR: [VRFC 10-1083] near unsigned ; type conversion expression type cannot be determined uniquely [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:62]
+ERROR: [VRFC 10-724] found '0' definitions of operator "-", cannot determine exact overloaded matching definition for "-" [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:62]
+ERROR: [VRFC 10-1504] unit struct_4byte_wide ignored due to previous errors [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:16]
+INFO: [VRFC 10-240] VHDL file H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+ERROR: [VRFC 10-724] found '0' definitions of operator "-", cannot determine exact overloaded matching definition for "-" [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:61]
+ERROR: [VRFC 10-1504] unit struct_4byte_wide ignored due to previous errors [H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd:16]
+INFO: [VRFC 10-240] VHDL file H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/im_4byte_wide.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/mips_single_cycle_proj/mips_single_cycle_proj.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 18 14:48:30 2015...

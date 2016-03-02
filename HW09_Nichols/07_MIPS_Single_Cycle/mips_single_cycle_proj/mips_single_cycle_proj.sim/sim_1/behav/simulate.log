@@ -1,0 +1,7 @@
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+ERROR: Index -1 out of bound 0 to 127
+Time: 8445 ns  Iteration: 1  Process: /mips_single_cycle_tb/uut/Data_Memory/dm_process
+  File: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd
+
+HDL Line: H:/EECS_645/HW09_source_files/07_MIPS_Single_Cycle/design_files/dm_4byte_wide.vhd:44

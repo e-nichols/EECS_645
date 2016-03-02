@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Oct 06 21:26:23 2015
+# Process ID: 3608
+# Log file: H:/EECS_645/HW_02/Prob_01/problem1_behavorial/vivado.log
+# Journal file: H:/EECS_645/HW_02/Prob_01/problem1_behavorial\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_645/HW_02/Prob_01/problem1_behavorial/problem1_behavorial.xpr
+INFO: [Project 1-313] Project file moved from 'H:/EECS_645/HW_2/Prob_01/problem1_behavorial' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 711.449 ; gain = 153.539
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a50ticsg325-1L
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a50ticsg325-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1026.727 ; gain = 313.238
+close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 06 21:30:30 2015...

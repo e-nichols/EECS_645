@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../HW08_source_files/06_Aux_Units/alu.vhd"
+
+# Do not sort compile order
+nosort

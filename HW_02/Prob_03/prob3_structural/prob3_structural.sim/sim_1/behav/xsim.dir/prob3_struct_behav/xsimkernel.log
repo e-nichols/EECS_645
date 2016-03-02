@@ -1,0 +1,7 @@
+Running: xsim.dir/prob3_struct_behav/xsimk.exe -simmode gui -wdb prob3_struct_behav.wdb -simrunnum 0 -socket 17217
+Design successfully loaded
+Design Loading Memory Usage: 21864 KB (Peak: 21864 KB)
+Design Loading CPU Usage: 140 ms
+Simulation completed
+Simulation Memory Usage: 22260 KB (Peak: 22260 KB)
+Simulation CPU Usage: 140 ms

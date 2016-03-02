@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Nov 05 14:37:27 2015
+# Process ID: 7244
+# Log file: H:/EECS_645/HW07_Nichols/vivado.log
+# Journal file: H:/EECS_645/HW07_Nichols\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_645/HW07_Nichols/mips_cu_prof.xpr
+INFO: [Project 1-313] Project file moved from 'H:/EECS_645/mips_cu_prof' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'H:/EECS_645/HW07_source_files/05_MIPS_CU/mips_cu.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'H:/EECS_645/HW07_source_files/05_MIPS_CU/mips_cu_tb.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_files -from_files H:/EECS_645/HW07_Nichols/HW07_source_files/05_MIPS_CU/mips_cu.vhd -to_files H:/EECS_645/HW07_source_files/05_MIPS_CU/mips_cu.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'H:/EECS_645/HW07_source_files/05_MIPS_CU/mips_cu.vhd' with file 'H:/EECS_645/HW07_Nichols/HW07_source_files/05_MIPS_CU/mips_cu.vhd'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_files -from_files H:/EECS_645/HW07_Nichols/HW07_source_files/05_MIPS_CU/mips_cu_tb.vhd -to_files H:/EECS_645/HW07_source_files/05_MIPS_CU/mips_cu_tb.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'H:/EECS_645/HW07_source_files/05_MIPS_CU/mips_cu_tb.vhd' with file 'H:/EECS_645/HW07_Nichols/HW07_source_files/05_MIPS_CU/mips_cu_tb.vhd'.
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'main_control_unit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'H:/EECS_645/HW07_Nichols/mips_cu_prof.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj main_control_unit_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW07_Nichols/HW07_source_files/05_MIPS_CU/mips_cu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_645/HW07_Nichols/HW07_source_files/05_MIPS_CU/mips_cu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity main_control_unit_tb
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/EECS_645/HW07_Nichols/mips_cu_prof.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 22c6fd3a469a4a63b5d5a02b2dbb91c4 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_control_unit_tb_behav xil_defaultlib.main_control_unit_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling architecture struct of entity xil_defaultlib.Main_Control_Unit [main_control_unit_default]
+Compiling architecture behavior of entity xil_defaultlib.main_control_unit_tb
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot main_control_unit_tb_behav
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'H:/EECS_645/HW07_Nichols/mips_cu_prof.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "main_control_unit_tb_behav -key {Behavioral:sim_1:Functional:main_control_unit_tb} -tclbatch {main_control_unit_tb.tcl} -view {H:/EECS_645/HW07_Nichols/main_control_unit_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config H:/EECS_645/HW07_Nichols/main_control_unit_tb_behav.wcfg
+source main_control_unit_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'main_control_unit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 711.359 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 05 14:39:17 2015...
